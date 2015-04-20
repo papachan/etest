@@ -1,3 +1,6 @@
 language: erlang
 otp_release:
   - 17.4
+rebar get-deps
+script:
+  - ./deps/etest/bin/etest-runner
