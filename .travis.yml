@@ -2,4 +2,4 @@ language: erlang
 otp_release:
   - 17.4
 script:
-  - ./deps/etest/bin/etest-runner
+  - rebar compile && ./deps/etest/bin/etest-runner
