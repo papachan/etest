@@ -1,4 +1,3 @@
-nguage: erlang
+language: erlang
 otp_release:
   - 17.4
-sudo: false
